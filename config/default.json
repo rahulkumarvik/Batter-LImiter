@@ -1,11 +1,11 @@
 {
-  "upper_limit": 80,
-  "lower_limit": 40,
+  "upper_limit": 90,
+  "lower_limit": 25,
   "poll_interval_seconds": 30,
-  "enable_notifications": true,
-  "enable_sound": false,
+  "enable_notifications": false,
+  "enable_sound": true,
   "stop_charging_command": "",
   "resume_charging_command": "",
   "notify_command": "notify-send",
-  "sound_command": ""
+  "sound_command": "ffplay -nodisp -autoexit '/home/coconut/batterlimiter/mixkit-forever-love-38_[cut_12sec].mp3'"
 }

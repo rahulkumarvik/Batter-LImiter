@@ -64,3 +64,4 @@ chmod +x packaging/install.sh packaging/uninstall.sh
 
 - The daemon does not hardcode a charging-control method because Linux battery charge control is hardware-specific.
 - On many laptops you will need to configure `stop_charging_command` and `resume_charging_command` yourself.
+
