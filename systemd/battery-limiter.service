@@ -1,0 +1,13 @@
+[Unit]
+Description=Battery Limiter
+After=graphical-session.target
+
+[Service]
+Type=simple
+WorkingDirectory=/usr/local/share/battery-limiter
+ExecStart=/usr/local/bin/battery-limiter /usr/local/share/battery-limiter/config/default.json
+Restart=on-failure
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target

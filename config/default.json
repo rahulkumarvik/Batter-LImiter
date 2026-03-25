@@ -1,0 +1,11 @@
+{
+  "upper_limit": 80,
+  "lower_limit": 40,
+  "poll_interval_seconds": 30,
+  "enable_notifications": true,
+  "enable_sound": false,
+  "stop_charging_command": "",
+  "resume_charging_command": "",
+  "notify_command": "notify-send",
+  "sound_command": ""
+}

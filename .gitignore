@@ -1,0 +1,7 @@
+battery-limiter
+build/
+cmake-build-*/
+*.o
+*.obj
+*.out
+.DS_Store
